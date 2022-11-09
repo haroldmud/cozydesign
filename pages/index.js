@@ -53,8 +53,8 @@ export default function Home() {
           </div>
         </div>
         <div className="text-[1rem] flex justify-center ml-[6rem]">
-          <div className="client__khaki-orange-items flex lg:flex-row flex-col gap-8 lg:w-5/6">
-            {/* <div className="client__khaki-item text-end text-kaki pt-20">
+          <div className="client__khaki-orange-items flex lg:flex-row flex-col gap-8 xl:w-5/6 lg:w-5/6 xl:ml-0 lg:ml-[7.7rem]">
+            <div className="client__khaki-item text-end text-kaki pt-20">
               <div className="mb-12">
                 <img className="client__blue-image relative w-16 ring-2 color-red ring-white border border-black rounded-3xl" src="https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604fb7dda4eebc035f1c0beb_1565729526231.webp" alt="susie" />
               </div>
@@ -64,7 +64,7 @@ export default function Home() {
               <h3 className="font-normal text-15s">ERIC WEISS</h3>
               <p className="text-xs text-lightkaki font-normal">Founder @ Full Cycle Product Development</p>
             </div>
-            <div className="client__orange-item text-kaki pt-20">
+            <div className="client__orange-item text-kaki pt-20 xl:w-auto">
               <div className="mb-12">
                 <img className="client__blue-image relative w-16 ring-2 color-red ring-white border border-black rounded-3xl" src="https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604fb8a427acfd62e2c3148c_Michael%20Weisfeld-p-500.webp" alt="susie" />
               </div>
@@ -74,7 +74,7 @@ export default function Home() {
                and all the deliverables are very well-organized and professional.</p>
               <h3 className="font-normal">MICHAEL WEISFELD</h3>
               <p className="text-xs text-lightkaki font-normal">Director of Digital Marketing @ National Funding</p>
-            </div> */}
+            </div>
           </div>
         </div>
       </section>
