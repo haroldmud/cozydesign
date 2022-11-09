@@ -20,12 +20,13 @@ export default function Home() {
        </div>
       </section>
       <Design/>
-      <section className="text-lightblue bg-kaki font-palanquini pb-32">
+      <section className="text-lightblue relative bg-kaki font-palanquini pb-32">
         <div className="flex justify-center">
           <h2 className="lg:text-4r lg:mt-52 mt-32">❤️ from our clients</h2>
         </div>
+       
         <div className="flex justify-center mt-8"><span className="border-b-4 border-khaki text-transparent">isk</span></div>
-        <div className="text-[1rem] flex justify-center lg:mt-32 -mt-32">
+        <div className="text-[1rem] relative flex justify-center lg:mt-32 -mt-32">
           <div className="client__blue-green-items flex lg:flex-row flex-col gap-8 lg:w-4/6">
             <div className="client__blue-item  text-end text-kaki ">
               <div className="flex justify-center mb-8">
@@ -52,9 +53,16 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="client__chat-image xl:block lg:block hidden absolute xl:top-[75.5rem] xl:left-[39rem] lg:top-[95.5rem] lg:left-[28.5rem]">
+          <div className="border-2 border-kaki rounded-full">
+            <div className="border-2 border-kaki rounded-full m-1">
+              <img className="bg-kaki w-46 p-6 rounded-full m-1"  src="https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5b60dd35a56ec72df4703e47_chat-icon-black.svg" alt="chat icon black" role="presentation"></img>
+            </div>
+          </div>
+        </div>
         <div className="text-[1rem] flex justify-center ml-[6rem]">
-          <div className="client__khaki-orange-items flex lg:flex-row flex-col gap-8 xl:w-5/6 lg:w-5/6 xl:ml-0 lg:ml-[7.7rem]">
-            <div className="client__khaki-item text-end text-kaki pt-20">
+          <div className="client__khaki-orange-items flex lg:flex-row flex-col gap-8 w-5/6 xl:ml-0 lg:-ml-[1rem] xl:w-5/6 lg:w-4/5">
+            <div className="client__khaki-item text-end text-kaki xl:pt-20 lg:pt-20 pt-14">
               <div className="mb-12">
                 <img className="client__blue-image relative w-16 ring-2 color-red ring-white border border-black rounded-3xl" src="https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604fb7dda4eebc035f1c0beb_1565729526231.webp" alt="susie" />
               </div>
