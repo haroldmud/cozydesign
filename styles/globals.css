@@ -4,5 +4,317 @@
 
 @font-face {
   font-family: "Palanquin";
-  src: url("../public/Palanquin/OFL.txt");
+  src: url("../public/Fraunces/static/Fraunces_144pt_SuperSoft/Fraunces_144pt_SuperSoft-Black.ttf");
+}
+
+@font-face {
+  font-family: "Palanquina";
+  src: url("../public/Fraunces/static/Fraunces_144pt_SuperSoft/Fraunces_144pt_SuperSoft-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Palanquini";
+  src: url("../public/Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
+}
+
+@font-face {
+  font-family: "normal";
+  src: url("../public/Palanquin/Palanquin-Bold.ttf");
+}
+
+.main__wrapper {
+  z-index: 20;
+}
+
+.main__button {
+  position: relative;
+  font-weight: bolder;
+  font-family: Geomanist,sans-serif;;
+  background-image: url(../public/background/btn.jpg);
+}
+
+.main__button::after {
+  content: 'la nuit quand t es pas la';
+  position: absolute;
+  z-index: 100;
+  color: transparent;
+  padding-left: 20rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: fit-content;
+  top: 0;
+  left: 0;
+  background: #fff;
+  opacity: 0;
+}
+
+.main__button:hover::after {
+  opacity: 0.1;
+}
+
+.main__title {
+  background-image: url(../public/background/noise.jpg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 1000;
+  /* background-size: 50px; */
+}
+
+.main__mobile-button {
+  font-weight: bolder;
+  font-family: Geomanist,sans-serif;
+  background-color: #b55730;
+  font-size: 20px;
+  width: 90%;
+}
+
+.design {
+  background-image: url(../public/background/section2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 10rem;
+}
+
+.design__button {
+  position: relative;
+  font-weight: bolder;
+  font-family: Geomanist,sans-serif;
+}
+
+.design__button::after {
+  content: 'la nuit quand t es pas la';
+  position: absolute;
+  z-index: 100;
+  color: white;
+  padding-left: 15rem;
+  border-radius: 10px;
+  height: fit-content;
+  margin-top: 0px;
+  padding-top: 20px;
+  top: 0;
+  left: 0;
+  background: #fff;
+  opacity: 0;
+}
+
+.design__button:hover::after {
+  opacity: 0.1;
+}
+
+.design__mobile-button {
+  font-weight: bolder;
+  font-family: Geomanist,sans-serif;
+  background-color: #b55730;
+  font-size: 20px;
+  width: 90%;
+}
+.client__blue-item {
+  padding-right: 40px;
+    padding-left: 60px;
+    padding-top: 5rem;
+    border-radius: 80% 80% 0 100%;
+    background-image: url(/background/item1.jpg);
+    background-size: 100px;
+    height: 34rem;
+    width: 50rem;
+    margin-top: 16rem;
+    box-shadow: 0 10px 24px 0 rgb(45 72 80 / 60%);
+    /* background-clip: padding-box; */
+    /* -webkit-text-fill-color: inherit; */
+}
+
+.client__green-item {
+  padding-right: 40px;
+    padding-left: 60px;
+    border-radius: 100% 100% 50% 0;
+    background-color: #2d4850;
+    background-image: url(../public/background/item2.jpg);
+    background-size: 50px;
+    width: 40rem;
+    height: 50rem;
+    box-shadow: 0 10px 24px 0 rgb(45 72 80 / 70%);
+    background-clip: padding-box;
+    -webkit-text-fill-color: inherit;
+}
+
+.client__khaki-item {
+  display: flex;
+    padding-right: 40px;
+    padding-left: 40px;
+    flex-direction: column;
+    align-items: flex-end;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 60%;
+    border-bottom-right-radius: 60%;
+    height: 28rem;
+    width: 70rem;
+    margin-left: 7.6rem;
+    background-color: #c47d57;
+    background-image: url(https://assets.website-files.com/5b60dd3…/61bbc96…_noise10.webp);
+    background-size: 50px;
+    box-shadow: 0 10px 24px 0 rgb(196 125 87 / 90%);
+}
+
+.client__orange-item {
+  display: flex;
+    padding-right: 40px;
+    padding-left: 60px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 60%;
+    height: 30rem;
+    width: 100rem;
+    border-bottom-right-radius: 60%;
+    background-color: #b55730;
+    background-image: url(https://assets.website-files.com/5b60dd3…/61bbc96…_noise10.webp);
+    background-size: 50px;
+    box-shadow: 0 10px 24px 0 rgba(230, 136, 85, 0.9);
+}
+
+
+@media(max-width:767px) {
+  .client__blue-item {
+    padding-right: 40px;
+      padding-left: 60px;
+      padding-top: 5rem;
+      border-radius: 80% 80% 0 100%;
+      background-image: url(/background/item1.jpg);
+      background-size: 100px;
+      height: 40rem;
+      width: 20rem;
+      margin-top: 16rem;
+      box-shadow: 0 10px 24px 0 rgb(45 72 80 / 60%);
+      /* background-clip: padding-box; */
+      /* -webkit-text-fill-color: inherit; */
+  }
+  
+  .client__green-item {
+    padding-right: 40px;
+      padding-left: 60px;
+      border-radius: 100% 100% 50% 0;
+      background-color: #2d4850;
+      background-image: url(../public/background/item2.jpg);
+      background-size: 50px;
+      width: 20rem;
+      height: 60rem;
+      box-shadow: 0 10px 24px 0 rgb(45 72 80 / 70%);
+      background-clip: padding-box;
+      -webkit-text-fill-color: inherit;
+  }
+  
+  .client__khaki-item {
+    display: flex;
+      padding-right: 40px;
+      padding-left: 40px;
+      flex-direction: column;
+      align-items: flex-end;
+      border-top-left-radius: 100%;
+      border-bottom-left-radius: 60%;
+      border-bottom-right-radius: 60%;
+      height: 28rem;
+      width: 20rem;
+      margin-left: -4rem;
+      background-color: #c47d57;
+      background-image: url(https://assets.website-files.com/5b60dd3…/61bbc96…_noise10.webp);
+      background-size: 50px;
+      box-shadow: 0 10px 24px 0 rgb(196 125 87 / 90%);
+  }
+  
+  .client__orange-item {
+    display: flex;
+      padding-right: 40px;
+      padding-left: 60px;
+      flex-direction: column;
+      align-items: flex-start;
+      border-top-right-radius: 100%;
+      border-bottom-left-radius: 60%;
+      height: 40rem;
+      width: 20rem;
+      margin-left: -4rem;
+      border-bottom-right-radius: 60%;
+      background-color: #b55730;
+      background-image: url(https://assets.website-files.com/5b60dd3…/61bbc96…_noise10.webp);
+      background-size: 50px;
+      box-shadow: 0 10px 24px 0 rgba(230, 136, 85, 0.9);
+  }
+}
+
+
+@media (max-width: 1024px) and (min-width: 768px)  {
+  .client__blue-green-items {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10rem;
+  }
+
+  .client__khaki-orange-items {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .client__blue-item {
+    padding-right: 40px;
+      padding-left: 60px;
+      padding-top: 5rem;
+      border-radius: 80% 80% 0 100%;
+      background-image: url(/background/item1.jpg);
+      background-size: 100px;
+      height: 40rem;
+      width: 20rem;
+      margin-top: 20rem;
+      box-shadow: 0 10px 24px 0 rgb(45 72 80 / 60%);
+      /* background-clip: padding-box; */
+      /* -webkit-text-fill-color: inherit; */
+  }
+  
+  .client__green-item {
+    padding-right: 40px;
+      padding-left: 60px;
+      border-radius: 100% 100% 50% 0;
+      background-color: #2d4850;
+      background-image: url(../public/background/item2.jpg);
+      background-size: 50px;
+      width: 20rem;
+      height: 60rem;
+      box-shadow: 0 10px 24px 0 rgb(45 72 80 / 70%);
+      background-clip: padding-box;
+      -webkit-text-fill-color: inherit;
+  }
+  
+  .client__khaki-item {
+      display: flex;
+      padding-right: 40px;
+      padding-left: 40px;
+      flex-direction: column;
+      align-items: flex-end;
+      border-top-left-radius: 100%;
+      border-bottom-left-radius: 60%;
+      border-bottom-right-radius: 60%;
+      height: 30rem;
+      width: 20rem;
+      margin-left: -6rem;
+      background-color: #c47d57;
+      background-image: url(https://assets.website-files.com/5b60dd3…/61bbc96…_noise10.webp);
+      background-size: 50px;
+      box-shadow: 0 10px 24px 0 rgb(196 125 87 / 90%);
+  }
+  
+  .client__orange-item {
+    display: flex;
+      padding-right: 40px;
+      padding-left: 60px;
+      flex-direction: column;
+      align-items: flex-start;
+      border-top-right-radius: 100%;
+      border-bottom-left-radius: 60%;
+      height: 40rem;
+      width: 20rem;
+      border-bottom-right-radius: 60%;
+      background-color: #b55730;
+      background-image: url(https://assets.website-files.com/5b60dd3…/61bbc96…_noise10.webp);
+      background-size: 50px;
+      box-shadow: 0 10px 24px 0 rgba(230, 136, 85, 0.9);
+  }
+  
 }

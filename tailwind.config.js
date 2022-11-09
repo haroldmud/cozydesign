@@ -6,28 +6,41 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'tablet': '768px',
+      },
       fontFamily:{
         'Palanquin': ['Palanquin'],
+        'palanquina': ["Palanquina"],
+        'palanquini': ["Palanquini"],
+        'normal': ["normal"],
+        'geomanist':['Geomanist','sans-serif'],
       },
+
       fontSize: {
         "15r":"15rem",
         "5r": "5rem",
-        "3/5r":"3.5rem",
+        "5/5r": "5.5rem",
+        "4r":"4rem",
         "3r": "3rem",
         "2/5r": "2.5rem",
         "2r":"2rem",
         "1/5r": "1.5rem", 
         "72s": "72px",
-        "36s": "36px",
+        "18s": "18px",
         "15s": "15px",
         "12s": "12px",
         "5s": "5px",
       },
       colors: {
-        blue:"#5135ff",
-        green: "#91f1c3",
-        lightblack: "#686868",
-        yellow: "#ffcb48",
+        blue:"#26313e",
+        lightblue:"#29303c",
+        kaki:"#e4ded5",
+        khaki:"#d4ac8e",
+        gray: "#b1afaa",
+        orange:"#c47d57",
+        deeporange:"#b55730",
+        lightkaki:"#ceae9a",
       },
 
       padding: {
@@ -45,6 +58,11 @@ module.exports = {
 
       width: {
         fit: "fit-content",
+        "50r":"50rem",
+        "41r":"41rem",
+        "37r":"37rem",
+        "35r":"35rem",
+        "26/5r":"26.5rem",
         "10d":"100px",
         half: "50%",
       },
@@ -58,7 +76,8 @@ module.exports = {
       },
       lineHeight: {
         "extra-loose": "2.5",
-        "7r": "7rem",
+        "7r":"7rem",
+        "6r": "6rem",
         "4r": "4rem",
       },
       borderRadius: {
@@ -66,12 +85,14 @@ module.exports = {
         "3s": "3px",
       },
       margin: {
-        "40r": "40rem",
-        "32r": "32rem",
-        "20r": "20rem",
-        "40s": "40px",
-        "8r": "8rem",
+        "3/5r":"3.5rem",
         "6@":"0.6rem",
+      },
+      spacing: {
+        "20r":"20rem",
+        "16r":"16rem",
+        "10r":"10rem",
+        '3px': '3px',
       },
       inset: {
         "140r": "140rem",
