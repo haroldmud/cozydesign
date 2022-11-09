@@ -22,6 +22,8 @@
   src: url("../public/Palanquin/Palanquin-Bold.ttf");
 }
 
+
+
 .main__wrapper {
   z-index: 20;
 }
@@ -147,7 +149,7 @@
     border-bottom-left-radius: 60%;
     border-bottom-right-radius: 60%;
     height: 28rem;
-    width: 70rem;
+    width: 70rem !important;
     margin-left: 7.6rem;
     background-color: #c47d57;
     background-image: url(https://assets.website-files.com/5b60dd3…/61bbc96…_noise10.webp);
@@ -164,7 +166,7 @@
     border-top-right-radius: 100%;
     border-bottom-left-radius: 60%;
     height: 30rem;
-    width: 100rem;
+    width: 100rem !important;
     border-bottom-right-radius: 60%;
     background-color: #b55730;
     background-image: url(https://assets.website-files.com/5b60dd3…/61bbc96…_noise10.webp);
@@ -317,4 +319,52 @@
       box-shadow: 0 10px 24px 0 rgba(230, 136, 85, 0.9);
   }
   
+}
+
+
+@media (max-width: 1366px) and (min-width: 1024px) {
+  /* .design__paragraph {
+    width: 25rem;
+  }
+
+  .design__title {
+    width: 25rem;
+    font-weight: bold;
+  }
+
+  .design__left-partners {
+    padding-top: 4rem;
+  }
+  
+  .design__image {
+    width: 10rem;
+  }
+
+  .design__images {
+    width: 9rem;
+  }
+
+  .client__khaki-orange-items {
+    position: relative;
+    left: 12;
+  }
+
+  .client__khaki-item {
+      display: flex;
+      padding-right: 40px;
+      padding-left: 40px;
+      flex-direction: column;
+      align-items: flex-end;
+      border-top-left-radius: 100%;
+      border-bottom-left-radius: 60%;
+      border-bottom-right-radius: 60%;
+      height: 28rem;
+      width: 26rem;
+      background-color: #c47d57;
+      background-image: url(https://assets.website-files.com/5b60dd3…/61bbc96…_noise10.webp);
+      background-size: 50px;
+      box-shadow: 0 10px 24px 0 rgb(196 125 87 / 90%);
+  } */
+  
+
 }
