@@ -33,7 +33,7 @@ function Client() {
             </div>
           </div>
         </div>
-        <div className="xl:block lg:block md:block hidden absolute xl:top-[75.5rem] xl:left-[38.7rem] lg:top-[95.5rem] lg:left-28/5r md:top-[74.5rem] md:left-[20.8rem]">
+        <div className="xl:block lg:block md:block hidden absolute xl:top-75/5r xl:left-38/7r lg:top-95/5r lg:left-28/5r md:top-74/5r md:left-20/8r">
           <div className="border-2 border-kaki rounded-full">
             <div className="border-2 border-kaki rounded-full m-1">
               <img className="bg-kaki w-46 p-6 rounded-full m-1"  src="https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5b60dd35a56ec72df4703e47_chat-icon-black.svg" alt="chat icon black" role="presentation"></img>
