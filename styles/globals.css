@@ -168,8 +168,7 @@
     height: 28rem;
     width: 70rem !important;
     margin-left: 7.6rem;
-    background-color: #c47d57;
-    background-image: url(https://assets.website-files.com/5b60dd3…/61bbc96…_noise10.webp);
+    background-image: url(/background/khaki.jpg);
     background-size: 3.125rem;
     box-shadow: 0 0.625rem 1.5rem 0 rgb(196 125 87 / 90%);
 }
@@ -185,8 +184,7 @@
     height: 30rem;
     width: 100rem !important;
     border-bottom-right-radius: 60%;
-    background-color: #b55730;
-    background-image: url(https://assets.website-files.com/5b60dd3…/61bbc96…_noise10.webp);
+    background-image: url(/background/orange.jpg);
     background-size: 3.125rem;
     box-shadow: 0 0.625rem 1.5rem 0 rgba(230, 136, 85, 0.9);
 }

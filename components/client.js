@@ -33,13 +33,13 @@ function Client() {
             </div>
           </div>
         </div>
-        {/* <div className="client__chat-image xl:block lg:block hidden absolute xl:top-75/5r xl:left-39r lg:top-95/5r lg:left-28/5r">
+        <div className="xl:block lg:block md:block hidden absolute xl:top-[75.5rem] xl:left-[38.7rem] lg:top-[95.5rem] lg:left-28/5r md:top-[74.5rem] md:left-[20.8rem]">
           <div className="border-2 border-kaki rounded-full">
             <div className="border-2 border-kaki rounded-full m-1">
               <img className="bg-kaki w-46 p-6 rounded-full m-1"  src="https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5b60dd35a56ec72df4703e47_chat-icon-black.svg" alt="chat icon black" role="presentation"></img>
             </div>
           </div>
-        </div> */}
+        </div>
         <div className="text-1r flex justify-center ml-6r">
           <div className="client__khaki-orange-items flex lg:flex-row flex-col gap-8 w-5/6 xl:ml-0 lg:-ml-1r xl:w-5/6 lg:w-4/5">
             <div className="client__khaki-item text-end text-kaki xl:pt-20 lg:pt-20 pt-14">
