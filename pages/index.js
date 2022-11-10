@@ -1,5 +1,6 @@
 import Header from "../components/header"
 import Design from "../components/design"
+import Digital from "../components/digital"
 import Client from "../components/client"
 import Hero from "../components/hero"
 import Partner from "../components/partners"
@@ -12,29 +13,79 @@ export default function Home() {
       <Design/>
       <Client/>
       <Partner/>
-      <section className="join relative">
-        <video className="join__content object-cover lg:h-30r h-35r w-full"  autoPlay loop muted>
-          <source src="https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5c86da0e3af903761f6c302c_Black%20And%20White%20Video%20Of%20Man%20Infront%20Of%20The%20Computer-transcode.mp4"/>
-        </video>
-        <div className="absolute flex justify-center lg:top-32 top-2">
-          <div className="flex lg:flex-row flex-col lg:gap-32">
-            <div className="lg:align-center flex justify-center mx-0 my-auto xl:ml-32 lg:ml-12 lg:mt-auto mt-12">
-              <img className="lg:w-32 w-14" src="https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5c86db21b4d0ca56dee6a263_sddd_lockup_reverse.svg" alt="" />
+      <Digital/>
+      <section className="bg-kaki flex  justify-center">
+        <section className="w-11/12">
+          <section className="flex lg:flex-row md:flex-row flex-col justify-between border-b-2 border-orange mb-2 lg:py-12 pb-4 pt-12">
+            <div className="flex lg:flex-row md:flex-row flex-col xl:gap-20">
+              <div className="flex justify-center">
+                <img className="w-20" src="https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5f8782865afd27755f3cb5bd_Cozy_logo_denim.svg" alt="logo" />
+              </div>
+              <div className="flex lg:flex-row md:flex-row flex-col font-palanquini text-[0.7rem] mt-2 text-deeporange">
+                <div className="flex justify-center text-center">
+                  <a className="w-20" href="#">About</a>
+                </div>
+                <div className="flex md:-ml-4 lg:ml-auto justify-center text-center">
+                  <a className="w-20" href="#">Services</a>
+                </div>
+                <div className="flex md:-ml-4 lg:ml-auto justify-center text-center">
+                  <a className="w-20" href="#">Work</a>
+                </div>
+                <div className="flex md:-ml-4 lg:ml-auto justify-center text-center">
+                  <a className="w-20" href="#">Blog</a>
+                </div>
+                <div className="flex md:-ml-4 lg:ml-auto justify-center text-center">
+                  <a className="w-20" href="#">Contact</a>  
+                </div>
+              </div>
             </div>
-            <div className="lg:w-4/6 w-5/6 lg:ml-auto ml-[10%] text-kaki lg:mt-auto mt-12">
-              <h2 className="italic lg:text-3r text-2/5r">Psst...</h2>
-              <p className="lg:text-3r lg:my-4 my-2  text-2/5r lg:w-auto w-56">are you a designer?</p>
-              <p className="font-palanquina lg:text-1/4r text-1r lg:w-5/6">Consider joining our <span className="text-rose">San Diego Design Designers</span> group. More than 700 people, we meet
-                online via Slack and in person at social events around the city. It’s a great opportunity
-                to share ideas, get inspired, find support, and celebrate great design.</p>
+            <div className="flex lg:gap-12 mt-3 lg:flex-row flex-col lg:mt-3 md:-mt-1">
+              <div className="flex justify-center">
+                <a href="#" className="flex gap-2 mt-1">
+                  <div>
+                    <img className="w-4" src="https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5f862ba8b2efe0fc2b486af2_emoji%402x.webp" alt="logo" />
+                  </div>
+                  <p className="text-rose font-palanquini text-xs">San Diego Digital Designers</p>
+                </a>
+              </div>
+              <div className="flex justify-center xl:mt-0 lg:-mt-1 md:mt-4">
+                <a href="#">
+                  <img className="lg:w-40 w-56" src="/icons/icons.jpg" alt="sites" />
+                </a>
+              </div>
             </div>
-          </div>
-        </div>
-      </section>
-      <section>
-        <a className="" href="#">
-          <h1 className="bg-deeporange text-3r text-white text-center lg:pt-12 pt-4 leading-[3rem] h-32">🙋 How can we help?</h1>
-        </a>
+          </section>
+
+          <section className="flex lg:flex-row flex-col justify-between md:flex-row py-8">
+            <div className="flex lg:flex-row flex-col gap-12">
+              <div className="md:flex md:gap-8 md:ml-8   lg:ml-auto ml-32">
+                <p className="font-geomanist text-sm align-center mx-0 my-auto md:mb-auto mb-12">BBB rating: A+</p>
+                <div className="align-center mx-0 my-auto">
+                  <img className="w-32" src="https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/634dd43d0cf9ec7420324d59_bod-new_shield-logo-member-p-500.png" alt="bureau" />
+                </div>
+              </div>
+              <div className="align-center mx-0 my-auto lg:ml-auto ml-12 lg:mb-auto md:ml-2 mb-12">
+                <img className="w-[13rem]" src="/icons/icon2.jpg" alt="clutch" />
+              </div>
+            </div>
+            <div className="font-geomanist lg:flex-row  flex-col text-xs flex gap-4 font-petit align-center mx-0 my-auto">
+              <div className="flex justify-center">
+                <div className="flex  gap-4 lg:mr-auto lg:mb-auto md:mb-8 md:mr-8">
+                  <div className="">
+                    <p>Made with</p>
+                  </div>
+                  <p>in beautiful, sunny San Diego. ©2021</p>
+                </div>
+              </div>
+              <div className="flex justify-center md:justify-end">
+                <div className="flex  gap-4">
+                  <p className="text-deeporange">Privacy</p>
+                  <p className="text-deeporange">Photo credit</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
       </section>
     </section>
   )
