@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        'tablet': '768px',
+        'tablet': '48rem',
       },
       fontFamily:{
         'Palanquin': ['Palanquin'],
@@ -34,12 +34,12 @@ module.exports = {
         "1/4r": "1.4rem",
         "1/2r": "1.2rem", 
         "1r":"1rem",
-        "72s": "72px",
-        "25s": "25px",
-        "18s": "18px",
-        "15s": "15px",
-        "12s": "12px",
-        "5s": "5px",
+        "72s": "4.5rem",
+        "25s": "1.5625rem",
+        "18s": "1.125rem",
+        "15s": "0.9375rem",
+        "12s": "0.75rem",
+        "5s": "0.3125rem",
       },
       colors: {
         blue:"#26313e",
@@ -56,14 +56,14 @@ module.exports = {
       padding: {
         "20r": "20rem",
         "10r": "10rem",
-        "30s": "30px",
-        "28s": "28px",
-        "25s": "25px",
-        "23s": "23px",
-        "15s": "15px",
-        "13s":"13px",
-        "10s": "10px",
-        "5s": "5px",
+        "30s": "1.875rem",
+        "28s": "1.75rem",
+        "25s": "1.5625rem",
+        "23s": "1.4375rem",
+        "13s":"0.8125rem",
+        "15s": "0.9375rem",
+        "10s": "0.625rem",
+        "5s": "0.3125rem",
       },
 
       width: {
@@ -76,6 +76,7 @@ module.exports = {
         "30r":"30rem",
         "26/5r":"26.5rem",
         "23r":"23rem",
+        "13r":"13rem",
         "8r":"8rem",
         "10d":"100px",
         half: "50%",
@@ -97,9 +98,11 @@ module.exports = {
       },
       borderRadius: {
         "1r": "2rem",
-        "3s": "3px",
+        "3s": "0.1875rem",
       },
       margin: {
+        "10p":"10%",
+        "10r":"10rem",
         "6r":"6rem",
         "3/5r":"3.5rem",
         "1r":"1rem",
@@ -113,7 +116,7 @@ module.exports = {
         "20r":"20rem",
         "16r":"16rem",
         "10r":"10rem",
-        '3px': '3px',
+        '3px': '0.1875rem',
       },
       inset: {
         "140r": "140rem",
