@@ -15,6 +15,11 @@ module.exports = {
         'palanquini': ["Palanquini"],
         'normal': ["normal"],
         'geomanist':['Geomanist','sans-serif'],
+        'italic':['italic']
+      },
+
+      fontWeight: {
+        petit: 100,
       },
 
       fontSize: {
@@ -25,8 +30,12 @@ module.exports = {
         "3r": "3rem",
         "2/5r": "2.5rem",
         "2r":"2rem",
-        "1/5r": "1.5rem", 
+        "1/5r": "1.5rem",
+        "1/4r": "1.4rem",
+        "1/2r": "1.2rem", 
+        "1r":"1rem",
         "72s": "72px",
+        "25s": "25px",
         "18s": "18px",
         "15s": "15px",
         "12s": "12px",
@@ -41,6 +50,7 @@ module.exports = {
         orange:"#c47d57",
         deeporange:"#b55730",
         lightkaki:"#ceae9a",
+        rose:"#b80f49",
       },
 
       padding: {
@@ -60,9 +70,13 @@ module.exports = {
         fit: "fit-content",
         "50r":"50rem",
         "41r":"41rem",
+        "40r":"40rem",
         "37r":"37rem",
         "35r":"35rem",
+        "30r":"30rem",
         "26/5r":"26.5rem",
+        "23r":"23rem",
+        "8r":"8rem",
         "10d":"100px",
         half: "50%",
       },
@@ -79,16 +93,23 @@ module.exports = {
         "7r":"7rem",
         "6r": "6rem",
         "4r": "4rem",
+        "3r": "3rem",
       },
       borderRadius: {
         "1r": "2rem",
         "3s": "3px",
       },
       margin: {
+        "6r":"6rem",
         "3/5r":"3.5rem",
+        "1r":"1rem",
         "6@":"0.6rem",
       },
       spacing: {
+        "95/5s":"90.5rem",
+        "75/5s":"75.5rem",
+        "39r":"38.7rem",
+        "28/5r":"28.5rem",
         "20r":"20rem",
         "16r":"16rem",
         "10r":"10rem",

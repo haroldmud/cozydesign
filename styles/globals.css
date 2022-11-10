@@ -22,6 +22,11 @@
   src: url("../public/Palanquin/Palanquin-Bold.ttf");
 }
 
+@font-face {
+  font-family: "italic";
+  src: url("../public/Fraunces/Fraunces-Italic-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
+}
+
 
 
 .main__wrapper {
@@ -277,14 +282,17 @@
   }
 }
 
-
 @media (max-width: 1024px) and (min-width: 768px)  {
+  .partner__images {
+    display: flex;
+    flex-direction: row;
+    padding: 0 2rem;
+  }
   .client__chat-image {
     display: block;
     left: 21rem;
-    top: 74.3rem;
+    top: 75.3rem;
   }
-
 
   .client__blue-green-items {
     display: flex;
@@ -361,48 +369,3 @@
   
 }
 
-
-@media (max-width: 1366px) and (min-width: 1024px) {
-  /* .design__paragraph {
-    width: 25rem;
-  }
-
-  .design__title {
-    width: 25rem;
-    font-weight: bold;
-  }
-
-  .design__left-partners {
-    padding-top: 4rem;
-  }
-  
-  .design__image {
-    width: 10rem;
-  }
-
-  .design__images {
-    width: 9rem;
-  }
-
-  .client__khaki-orange-items {
-    position: relative;
-    left: 12;
-  }
-*/
-  /* .client__khaki-item {
-      display: flex;
-      padding-right: 40px;
-      padding-left: 40px;
-      flex-direction: column;
-      align-items: flex-end;
-      border-top-left-radius: 100%;
-      border-bottom-left-radius: 60%;
-      border-bottom-right-radius: 60%;
-      height: 28rem;
-      width: 50rem    ;
-      background-color: #c47d57;
-      background-image: url(https://assets.website-files.com/5b60dd3…/61bbc96…_noise10.webp);
-      background-size: 50px;
-      box-shadow: 0 10px 24px 0 rgb(196 125 87 / 90%);
-  }  */ 
-}
