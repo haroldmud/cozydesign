@@ -81,13 +81,14 @@
   padding-bottom: 10rem;
 }
 
+
 .design__button {
   position: relative;
   font-weight: bolder;
   font-family: Geomanist,sans-serif;
 }
 
-.design__button::after {
+.design__button::before {
   content: 'la nuit quand t es pas la';
   position: absolute;
   z-index: 100;
@@ -103,8 +104,20 @@
   opacity: 0;
 }
 
-.design__button:hover::after {
+.design__button:hover::before {
   opacity: 0.1;
+}
+
+.design__button::after {
+  content: "WHY WE DO WHAT WE DO";
+  position: absolute;
+  opacity: 0;
+  left: 3.1rem;
+  top: 2.1rem;
+}
+
+.design__button:hover::after {
+  opacity: 1;
 }
 
 .design__mobile-button {
